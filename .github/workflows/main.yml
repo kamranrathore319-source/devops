@@ -1,4 +1,4 @@
-name: Build and Deploy NodeJS App on AWS
+name: Barani App on AWS
 on:
   push:
     branches:
@@ -9,4 +9,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4    
+      - uses: actions/checkout@v4  
+      - name: Step 1
+        run: 
+         echo "We are learning about DevOps today"
+      - name: Step 2
+        run: 
+         echo "We are learning about DevOps today"
+      - name: Step 3
+        run: 
+         echo "We are learning about DevOps today"
+      - name: Step 4
+        run: 
+         echo "We are learning about DevOps today"
+      - name: Step 5
+        run: 
+         echo "We are learning about DevOps today"
+      - name: Step 6
+        run: 
+         echo "We are learning about DevOps today"
